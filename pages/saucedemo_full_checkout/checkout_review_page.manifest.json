@@ -1,0 +1,223 @@
+[
+  {
+    "method": "click_about_sidebar_link",
+    "kind": "click",
+    "element": "about_sidebar_link",
+    "phrases": [
+      "choose about sidebar link about",
+      "choose the about sidebar link about",
+      "click about sidebar link about",
+      "click the about sidebar link about",
+      "press about sidebar link about",
+      "press the about sidebar link about",
+      "select about sidebar link about",
+      "select the about sidebar link about",
+      "tap about sidebar link about",
+      "tap the about sidebar link about"
+    ]
+  },
+  {
+    "method": "click_cancel",
+    "kind": "click",
+    "element": "cancel",
+    "phrases": [
+      "choose cancel",
+      "choose the cancel",
+      "click cancel",
+      "click the cancel",
+      "press cancel",
+      "press the cancel",
+      "select cancel",
+      "select the cancel",
+      "tap cancel",
+      "tap the cancel"
+    ]
+  },
+  {
+    "method": "click_dynamic_catalog_sidebar_link",
+    "kind": "click",
+    "element": "dynamic_catalog_sidebar_link",
+    "phrases": [
+      "choose dynamic catalog sidebar link dynamic catalog",
+      "choose the dynamic catalog sidebar link dynamic catalog",
+      "click dynamic catalog sidebar link dynamic catalog",
+      "click the dynamic catalog sidebar link dynamic catalog",
+      "press dynamic catalog sidebar link dynamic catalog",
+      "press the dynamic catalog sidebar link dynamic catalog",
+      "select dynamic catalog sidebar link dynamic catalog",
+      "select the dynamic catalog sidebar link dynamic catalog",
+      "tap dynamic catalog sidebar link dynamic catalog",
+      "tap the dynamic catalog sidebar link dynamic catalog"
+    ]
+  },
+  {
+    "method": "click_finish",
+    "kind": "click",
+    "element": "finish",
+    "phrases": [
+      "choose finish",
+      "choose the finish",
+      "click finish",
+      "click the finish",
+      "press finish",
+      "press the finish",
+      "select finish",
+      "select the finish",
+      "tap finish",
+      "tap the finish"
+    ]
+  },
+  {
+    "method": "click_inventory_sidebar_link",
+    "kind": "click",
+    "element": "inventory_sidebar_link",
+    "phrases": [
+      "choose inventory sidebar link all items",
+      "choose the inventory sidebar link all items",
+      "click inventory sidebar link all items",
+      "click the inventory sidebar link all items",
+      "press inventory sidebar link all items",
+      "press the inventory sidebar link all items",
+      "select inventory sidebar link all items",
+      "select the inventory sidebar link all items",
+      "tap inventory sidebar link all items",
+      "tap the inventory sidebar link all items"
+    ]
+  },
+  {
+    "method": "click_logout_sidebar_link",
+    "kind": "click",
+    "element": "logout_sidebar_link",
+    "phrases": [
+      "choose logout sidebar link logout",
+      "choose the logout sidebar link logout",
+      "click logout sidebar link logout",
+      "click the logout sidebar link logout",
+      "press logout sidebar link logout",
+      "press the logout sidebar link logout",
+      "select logout sidebar link logout",
+      "select the logout sidebar link logout",
+      "tap logout sidebar link logout",
+      "tap the logout sidebar link logout"
+    ]
+  },
+  {
+    "method": "click_react_burger_cross_btn",
+    "kind": "click",
+    "element": "react_burger_cross_btn",
+    "phrases": [
+      "choose react burger cross btn close menu",
+      "choose the react burger cross btn close menu",
+      "click react burger cross btn close menu",
+      "click the react burger cross btn close menu",
+      "press react burger cross btn close menu",
+      "press the react burger cross btn close menu",
+      "select react burger cross btn close menu",
+      "select the react burger cross btn close menu",
+      "tap react burger cross btn close menu",
+      "tap the react burger cross btn close menu"
+    ]
+  },
+  {
+    "method": "click_react_burger_menu_btn",
+    "kind": "click",
+    "element": "react_burger_menu_btn",
+    "phrases": [
+      "choose react burger menu btn open menu",
+      "choose the react burger menu btn open menu",
+      "click react burger menu btn open menu",
+      "click the react burger menu btn open menu",
+      "press react burger menu btn open menu",
+      "press the react burger menu btn open menu",
+      "select react burger menu btn open menu",
+      "select the react burger menu btn open menu",
+      "tap react burger menu btn open menu",
+      "tap the react burger menu btn open menu"
+    ]
+  },
+  {
+    "method": "click_reset_sidebar_link",
+    "kind": "click",
+    "element": "reset_sidebar_link",
+    "phrases": [
+      "choose reset sidebar link reset app state",
+      "choose the reset sidebar link reset app state",
+      "click reset sidebar link reset app state",
+      "click the reset sidebar link reset app state",
+      "press reset sidebar link reset app state",
+      "press the reset sidebar link reset app state",
+      "select reset sidebar link reset app state",
+      "select the reset sidebar link reset app state",
+      "tap reset sidebar link reset app state",
+      "tap the reset sidebar link reset app state"
+    ]
+  },
+  {
+    "method": "click_shopping_cart_link",
+    "kind": "click",
+    "element": "shopping_cart_link",
+    "phrases": [
+      "choose shopping cart link cart, empty",
+      "choose the shopping cart link cart, empty",
+      "click shopping cart link cart, empty",
+      "click the shopping cart link cart, empty",
+      "press shopping cart link cart, empty",
+      "press the shopping cart link cart, empty",
+      "select shopping cart link cart, empty",
+      "select the shopping cart link cart, empty",
+      "tap shopping cart link cart, empty",
+      "tap the shopping cart link cart, empty"
+    ]
+  },
+  {
+    "method": "click_social_facebook",
+    "kind": "click",
+    "element": "social_facebook",
+    "phrases": [
+      "choose social facebook facebook",
+      "choose the social facebook facebook",
+      "click social facebook facebook",
+      "click the social facebook facebook",
+      "press social facebook facebook",
+      "press the social facebook facebook",
+      "select social facebook facebook",
+      "select the social facebook facebook",
+      "tap social facebook facebook",
+      "tap the social facebook facebook"
+    ]
+  },
+  {
+    "method": "click_social_linkedin",
+    "kind": "click",
+    "element": "social_linkedin",
+    "phrases": [
+      "choose social linkedin linkedin",
+      "choose the social linkedin linkedin",
+      "click social linkedin linkedin",
+      "click the social linkedin linkedin",
+      "press social linkedin linkedin",
+      "press the social linkedin linkedin",
+      "select social linkedin linkedin",
+      "select the social linkedin linkedin",
+      "tap social linkedin linkedin",
+      "tap the social linkedin linkedin"
+    ]
+  },
+  {
+    "method": "click_social_x",
+    "kind": "click",
+    "element": "social_x",
+    "phrases": [
+      "choose social x x",
+      "choose the social x x",
+      "click social x x",
+      "click the social x x",
+      "press social x x",
+      "press the social x x",
+      "select social x x",
+      "select the social x x",
+      "tap social x x",
+      "tap the social x x"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "users": {
+    "valid_user": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "locked_user": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "problem_user": {
+      "username": "problem_user",
+      "password": "secret_sauce"
+    }
+  },
+  "products": {
+    "primary": "Sauce Labs Backpack"
+  },
+  "checkout_info": {
+    "first_name": "Rahul",
+    "last_name": "Sharma",
+    "postal_code": "400001"
+  }
+}

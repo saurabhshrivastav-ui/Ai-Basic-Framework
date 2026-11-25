@@ -1,0 +1,284 @@
+2026-09-23 15:39:51 | INFO     | orchestrator | ===== Brain: running Flow B for story 'my_story' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 15:39:51 | INFO     | orchestrator | Brain: discovering 'login' from https://www.saucedemo.com/
+2026-09-23 15:39:51 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/ as 'login'
+2026-09-23 15:40:00 | INFO     | agent.locator_discovery | Agent 7: found 3 interactive element(s) on the live page
+2026-09-23 15:40:01 | INFO     | agent.locator_discovery | Agent 7 output: 3 element(s) written to D:\Ai_Basic_Framework\locators\login_page.json
+2026-09-23 15:40:01 | INFO     | agent.pom_generator | Agent 6 output: LoginPage (3 methods) -> D:\Ai_Basic_Framework\pages\login_page.py, entry_page=True
+2026-09-23 15:40:01 | INFO     | agent.test_case_pipeline | Pipeline: processing 'my_story.txt' -> test_cases/my_story/
+2026-09-23 15:40:01 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 15:40:01 | INFO     | agent.requirement | Agent 1 output: module=General actor=User
+2026-09-23 15:40:01 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=General
+2026-09-23 15:40:01 | INFO     | agent.business_rule | Agent 2 output: 0 business rules found
+2026-09-23 15:40:01 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=General
+2026-09-23 15:40:01 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 15:40:01 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 15:40:01 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 15:40:01 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 15:40:01 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\my_story\test_data.json
+2026-09-23 15:40:01 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\my_story
+2026-09-23 15:40:01 | INFO     | agent.script_writer | Agent 8 (Script Writer Agent): writing a script for story 'my_story'
+2026-09-23 15:40:01 | INFO     | agent.script_writer | Agent 8 output: 6 test function(s) written to D:\Ai_Basic_Framework\tests\generated\my_story\test_my_story.py
+2026-09-23 15:40:01 | INFO     | orchestrator | ===== Brain finished: D:\Ai_Basic_Framework\tests\generated\my_story\test_my_story.py is ready =====
+2026-09-23 15:40:02 | INFO     | fixture_factory | conftest (root/Flow A): registered 1 page-object fixture(s) from D:\Ai_Basic_Framework\pages: login_page
+2026-09-23 15:40:04 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:40:06 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:40:07 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:44:15 | INFO     | fixture_factory | conftest (root/Flow A): registered 1 page-object fixture(s) from D:\Ai_Basic_Framework\pages: login_page
+2026-09-23 15:44:58 | INFO     | orchestrator | ===== Brain: running Flow B for story 'saucedemo_checkout' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 15:44:58 | INFO     | orchestrator | Brain: pages/login_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 15:44:58 | INFO     | orchestrator | Brain: discovering 'inventory' from https://www.saucedemo.com/inventory.html
+2026-09-23 15:44:58 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/inventory.html as 'inventory'
+2026-09-23 15:44:59 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 15:44:59 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:45:01 | INFO     | agent.locator_discovery | Agent 7: found 29 interactive element(s) on the live page
+2026-09-23 15:45:01 | INFO     | agent.locator_discovery | Agent 7 output: 29 element(s) written to D:\Ai_Basic_Framework\locators\inventory_page.json
+2026-09-23 15:45:01 | INFO     | agent.pom_generator | Agent 6 output: InventoryPage (29 methods) -> D:\Ai_Basic_Framework\pages\inventory_page.py, entry_page=False
+2026-09-23 15:45:01 | INFO     | orchestrator | Brain: discovering 'cart' from https://www.saucedemo.com/cart.html
+2026-09-23 15:45:01 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/cart.html as 'cart'
+2026-09-23 15:45:02 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 15:45:02 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:45:04 | INFO     | agent.locator_discovery | Agent 7: found 13 interactive element(s) on the live page
+2026-09-23 15:45:04 | INFO     | agent.locator_discovery | Agent 7 output: 13 element(s) written to D:\Ai_Basic_Framework\locators\cart_page.json
+2026-09-23 15:45:04 | INFO     | agent.pom_generator | Agent 6 output: CartPage (13 methods) -> D:\Ai_Basic_Framework\pages\cart_page.py, entry_page=False
+2026-09-23 15:45:04 | INFO     | agent.test_case_pipeline | Pipeline: processing 'saucedemo_checkout.txt' -> test_cases/saucedemo_checkout/
+2026-09-23 15:45:04 | WARNING  | agent.test_case_pipeline | RAG: 3 existing test case(s) look similar to this story - review before duplicating effort:
+2026-09-23 15:45:04 | WARNING  | agent.test_case_pipeline |   29% similar: TC-01 'General: complete the flow with fully valid data' (from story 'my_story')
+2026-09-23 15:45:04 | WARNING  | agent.test_case_pipeline |   14% similar: TC-02 'General: attempt the flow with an invalid or locked account' (from story 'my_story')
+2026-09-23 15:45:04 | WARNING  | agent.test_case_pipeline |   14% similar: TC-03 'General: attempt the flow with a required field left empty' (from story 'my_story')
+2026-09-23 15:45:04 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 15:45:04 | INFO     | agent.requirement | Agent 1 output: module=Login actor=registered customer
+2026-09-23 15:45:04 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=Login
+2026-09-23 15:45:04 | INFO     | agent.business_rule | Agent 2 output: 8 business rules found
+2026-09-23 15:45:04 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=Login
+2026-09-23 15:45:04 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 15:45:04 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 15:45:04 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 15:45:04 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 15:45:04 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout\test_data.json
+2026-09-23 15:45:04 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout
+2026-09-23 15:45:04 | INFO     | agent.script_writer | Agent 8 (Script Writer Agent): writing a script for story 'saucedemo_checkout'
+2026-09-23 15:45:04 | INFO     | agent.script_writer | Agent 8 output: 6 test function(s) written to D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py
+2026-09-23 15:45:04 | INFO     | orchestrator | ===== Brain finished: D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py is ready =====
+2026-09-23 15:45:13 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 15:45:15 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:45:16 | ERROR    | conftest | Test 'test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium].png
+2026-09-23 15:45:17 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:45:18 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 15:45:20 | ERROR    | conftest | Test 'test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium].png
+2026-09-23 16:00:18 | INFO     | orchestrator | ===== Brain: running Flow B for story 'saucedemo_checkout' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 16:00:18 | INFO     | orchestrator | Brain: pages/login_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 16:00:18 | INFO     | orchestrator | Brain: pages/inventory_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 16:00:18 | INFO     | orchestrator | Brain: pages/cart_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 16:00:18 | INFO     | agent.test_case_pipeline | Pipeline: processing 'saucedemo_checkout.txt' -> test_cases/saucedemo_checkout/
+2026-09-23 16:00:18 | WARNING  | agent.test_case_pipeline | RAG: 3 existing test case(s) look similar to this story - review before duplicating effort:
+2026-09-23 16:00:18 | WARNING  | agent.test_case_pipeline |   29% similar: TC-01 'General: complete the flow with fully valid data' (from story 'my_story')
+2026-09-23 16:00:18 | WARNING  | agent.test_case_pipeline |   14% similar: TC-02 'General: attempt the flow with an invalid or locked account' (from story 'my_story')
+2026-09-23 16:00:18 | WARNING  | agent.test_case_pipeline |   14% similar: TC-03 'General: attempt the flow with a required field left empty' (from story 'my_story')
+2026-09-23 16:00:18 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 16:00:18 | INFO     | agent.requirement | Agent 1 output: module=Login actor=registered customer
+2026-09-23 16:00:18 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=Login
+2026-09-23 16:00:18 | INFO     | agent.business_rule | Agent 2 output: 8 business rules found
+2026-09-23 16:00:18 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=Login
+2026-09-23 16:00:18 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 16:00:18 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 16:00:18 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 16:00:18 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 16:00:18 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout\test_data.json
+2026-09-23 16:00:18 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout
+2026-09-23 16:05:32 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 16:05:33 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:05:34 | ERROR    | conftest | Test 'test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium].png
+2026-09-23 16:05:34 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:05:35 | INFO     | page.login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:05:36 | ERROR    | conftest | Test 'test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium].png
+2026-09-23 16:06:37 | INFO     | orchestrator | ===== Brain: running Flow B for story 'saucedemo_checkout' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 16:06:37 | INFO     | orchestrator | Brain: discovering 'login' from https://www.saucedemo.com/ (story 'saucedemo_checkout')
+2026-09-23 16:06:37 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/ as 'login' (story: saucedemo_checkout)
+2026-09-23 16:06:42 | INFO     | agent.locator_discovery | Agent 7: found 3 interactive element(s) on the live page
+2026-09-23 16:06:42 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_checkout:login' looks similar (36% word overlap) to already-discovered page 'login' - double check this isn't a duplicate.
+2026-09-23 16:06:42 | INFO     | agent.locator_discovery | Agent 7 output: 3 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_checkout\login_page.json
+2026-09-23 16:06:42 | INFO     | agent.pom_generator | Agent 6 output: LoginPage (3 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_checkout\login_page.py, entry_page=True
+2026-09-23 16:06:42 | INFO     | orchestrator | Brain: discovering 'inventory' from https://www.saucedemo.com/inventory.html (story 'saucedemo_checkout')
+2026-09-23 16:06:42 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/inventory.html as 'inventory' (story: saucedemo_checkout)
+2026-09-23 16:06:43 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 16:06:43 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:45 | INFO     | agent.locator_discovery | Agent 7: found 29 interactive element(s) on the live page
+2026-09-23 16:06:45 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_checkout:inventory' looks similar (64% word overlap) to already-discovered page 'inventory' - double check this isn't a duplicate.
+2026-09-23 16:06:45 | INFO     | agent.locator_discovery | Agent 7 output: 29 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_checkout\inventory_page.json
+2026-09-23 16:06:45 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_checkout:inventory' overlaps 64% in wording with existing page 'inventory' - check you're not duplicating an existing page object.
+2026-09-23 16:06:45 | INFO     | agent.pom_generator | Agent 6 output: InventoryPage (29 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_checkout\inventory_page.py, entry_page=False
+2026-09-23 16:06:45 | INFO     | orchestrator | Brain: discovering 'cart' from https://www.saucedemo.com/cart.html (story 'saucedemo_checkout')
+2026-09-23 16:06:45 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/cart.html as 'cart' (story: saucedemo_checkout)
+2026-09-23 16:06:45 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 16:06:45 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:47 | INFO     | agent.locator_discovery | Agent 7: found 12 interactive element(s) on the live page
+2026-09-23 16:06:47 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_checkout:cart' looks similar (59% word overlap) to already-discovered page 'cart' - double check this isn't a duplicate.
+2026-09-23 16:06:47 | INFO     | agent.locator_discovery | Agent 7 output: 12 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_checkout\cart_page.json
+2026-09-23 16:06:47 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_checkout:cart' overlaps 59% in wording with existing page 'cart' - check you're not duplicating an existing page object.
+2026-09-23 16:06:47 | INFO     | agent.pom_generator | Agent 6 output: CartPage (12 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_checkout\cart_page.py, entry_page=False
+2026-09-23 16:06:47 | INFO     | agent.test_case_pipeline | Pipeline: processing 'saucedemo_checkout.txt' -> test_cases/saucedemo_checkout/
+2026-09-23 16:06:47 | WARNING  | agent.test_case_pipeline | RAG: 3 existing test case(s) look similar to this story - review before duplicating effort:
+2026-09-23 16:06:47 | WARNING  | agent.test_case_pipeline |   29% similar: TC-01 'General: complete the flow with fully valid data' (from story 'my_story')
+2026-09-23 16:06:47 | WARNING  | agent.test_case_pipeline |   14% similar: TC-02 'General: attempt the flow with an invalid or locked account' (from story 'my_story')
+2026-09-23 16:06:47 | WARNING  | agent.test_case_pipeline |   14% similar: TC-03 'General: attempt the flow with a required field left empty' (from story 'my_story')
+2026-09-23 16:06:47 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 16:06:47 | INFO     | agent.requirement | Agent 1 output: module=Login actor=registered customer
+2026-09-23 16:06:47 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=Login
+2026-09-23 16:06:47 | INFO     | agent.business_rule | Agent 2 output: 8 business rules found
+2026-09-23 16:06:47 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=Login
+2026-09-23 16:06:47 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 16:06:47 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 16:06:47 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 16:06:47 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 16:06:47 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout\test_data.json
+2026-09-23 16:06:47 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout
+2026-09-23 16:06:47 | INFO     | agent.script_writer | Agent 8 (Script Writer Agent): writing a script for story 'saucedemo_checkout'
+2026-09-23 16:06:47 | INFO     | agent.script_writer | Agent 8 output: 6 test function(s) written to D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py (fixtures via D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\conftest.py)
+2026-09-23 16:06:47 | INFO     | orchestrator | ===== Brain finished: D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py is ready =====
+2026-09-23 16:06:51 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 16:06:51 | INFO     | fixture_factory | conftest (tests/generated/saucedemo_checkout): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages\saucedemo_checkout: cart_page, inventory_page, login_page
+2026-09-23 16:06:52 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:54 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:55 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:56 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:56 | WARNING  | self_healing | Self-healing: 'saucedemo_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'text' (primary locator may need updating)
+2026-09-23 16:06:57 | ERROR    | conftest | Test 'test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_04_login_attempt_the_flow_with_exactly_one_item_minimum_valid_input[chromium].png
+2026-09-23 16:06:57 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:06:58 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:12:56 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 16:12:56 | INFO     | fixture_factory | conftest (tests/generated/saucedemo_checkout): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages\saucedemo_checkout: cart_page, inventory_page, login_page
+2026-09-23 16:12:57 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:12:58 | WARNING  | self_healing | Self-healing: 'saucedemo_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 16:12:58 | WARNING  | self_healing | Self-healing: 'saucedemo_checkout/cart.checkout' found via fallback tier 'role' (primary locator may need updating)
+2026-09-23 16:12:59 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:13:00 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:13:01 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:13:01 | WARNING  | self_healing | Self-healing: 'saucedemo_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 16:13:02 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 16:13:03 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:37:00 | INFO     | orchestrator | ===== Brain: running Flow B for story 'saucedemo_checkout' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 17:37:00 | INFO     | orchestrator | Brain: pages/saucedemo_checkout/login_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 17:37:00 | INFO     | orchestrator | Brain: pages/saucedemo_checkout/inventory_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 17:37:00 | INFO     | orchestrator | Brain: pages/saucedemo_checkout/cart_page.py already exists - skipping discovery (use --force-discover to redo it)
+2026-09-23 17:37:00 | INFO     | agent.test_case_pipeline | Pipeline: processing 'saucedemo_checkout.txt' -> test_cases/saucedemo_checkout/
+2026-09-23 17:37:00 | WARNING  | agent.test_case_pipeline | RAG: 3 existing test case(s) look similar to this story - review before duplicating effort:
+2026-09-23 17:37:00 | WARNING  | agent.test_case_pipeline |   29% similar: TC-01 'General: complete the flow with fully valid data' (from story 'my_story')
+2026-09-23 17:37:00 | WARNING  | agent.test_case_pipeline |   14% similar: TC-02 'General: attempt the flow with an invalid or locked account' (from story 'my_story')
+2026-09-23 17:37:00 | WARNING  | agent.test_case_pipeline |   14% similar: TC-03 'General: attempt the flow with a required field left empty' (from story 'my_story')
+2026-09-23 17:37:00 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 17:37:00 | INFO     | agent.requirement | Agent 1 output: module=Login actor=registered customer
+2026-09-23 17:37:00 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=Login
+2026-09-23 17:37:00 | INFO     | agent.business_rule | Agent 2 output: 8 business rules found
+2026-09-23 17:37:00 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=Login
+2026-09-23 17:37:00 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 17:37:00 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 17:37:00 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 17:37:00 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 17:37:00 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout\test_data.json
+2026-09-23 17:37:00 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\saucedemo_checkout
+2026-09-23 17:37:00 | INFO     | agent.script_writer | Agent 8 (Script Writer Agent): writing a script for story 'saucedemo_checkout'
+2026-09-23 17:37:00 | INFO     | agent.script_writer | Agent 8 output: 6 test function(s) written to D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py (fixtures via D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\conftest.py)
+2026-09-23 17:37:00 | INFO     | orchestrator | ===== Brain finished: D:\Ai_Basic_Framework\tests\generated\saucedemo_checkout\test_saucedemo_checkout.py is ready =====
+2026-09-23 17:38:01 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 17:38:01 | INFO     | fixture_factory | conftest (tests/generated/saucedemo_checkout): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages\saucedemo_checkout: cart_page, inventory_page, login_page
+2026-09-23 17:38:04 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:38:05 | WARNING  | self_healing | Self-healing: 'saucedemo_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 17:38:06 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:38:07 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:38:08 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:38:10 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:38:12 | INFO     | page.saucedemo_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:49:34 | INFO     | orchestrator | ===== Brain: running Flow B for story 'saucedemo_full_checkout' (BASE_URL=https://www.saucedemo.com/) =====
+2026-09-23 17:49:34 | INFO     | orchestrator | Brain: discovering 'login' from https://www.saucedemo.com/ (story 'saucedemo_full_checkout')
+2026-09-23 17:49:34 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/ as 'login' (story: saucedemo_full_checkout)
+2026-09-23 17:49:38 | INFO     | agent.locator_discovery | Agent 7: found 3 interactive element(s) on the live page
+2026-09-23 17:49:39 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:login' looks similar (36% word overlap) to already-discovered page 'login' - double check this isn't a duplicate.
+2026-09-23 17:49:39 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:login' looks similar (31% word overlap) to already-discovered page 'saucedemo_checkout:login' - double check this isn't a duplicate.
+2026-09-23 17:49:39 | INFO     | agent.locator_discovery | Agent 7 output: 3 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\login_page.json
+2026-09-23 17:49:39 | INFO     | agent.pom_generator | Agent 6 output: LoginPage (3 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\login_page.py, entry_page=True
+2026-09-23 17:49:39 | INFO     | orchestrator | Brain: discovering 'inventory' from https://www.saucedemo.com/inventory.html (story 'saucedemo_full_checkout')
+2026-09-23 17:49:39 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/inventory.html as 'inventory' (story: saucedemo_full_checkout)
+2026-09-23 17:49:40 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 17:49:40 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:49:41 | INFO     | agent.locator_discovery | Agent 7: found 29 interactive element(s) on the live page
+2026-09-23 17:49:41 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:inventory' looks similar (64% word overlap) to already-discovered page 'inventory' - double check this isn't a duplicate.
+2026-09-23 17:49:41 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:inventory' looks similar (62% word overlap) to already-discovered page 'saucedemo_checkout:inventory' - double check this isn't a duplicate.
+2026-09-23 17:49:41 | INFO     | agent.locator_discovery | Agent 7 output: 29 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\inventory_page.json
+2026-09-23 17:49:41 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:inventory' overlaps 64% in wording with existing page 'inventory' - check you're not duplicating an existing page object.
+2026-09-23 17:49:41 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:inventory' overlaps 62% in wording with existing page 'saucedemo_checkout:inventory' - check you're not duplicating an existing page object.
+2026-09-23 17:49:41 | INFO     | agent.pom_generator | Agent 6 output: InventoryPage (29 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\inventory_page.py, entry_page=False
+2026-09-23 17:49:41 | INFO     | orchestrator | Brain: discovering 'cart' from https://www.saucedemo.com/cart.html (story 'saucedemo_full_checkout')
+2026-09-23 17:49:41 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/cart.html as 'cart' (story: saucedemo_full_checkout)
+2026-09-23 17:49:42 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 17:49:42 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:49:44 | INFO     | agent.locator_discovery | Agent 7: found 13 interactive element(s) on the live page
+2026-09-23 17:49:44 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:cart' looks similar (62% word overlap) to already-discovered page 'cart' - double check this isn't a duplicate.
+2026-09-23 17:49:44 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:cart' looks similar (59% word overlap) to already-discovered page 'saucedemo_checkout:cart' - double check this isn't a duplicate.
+2026-09-23 17:49:44 | INFO     | agent.locator_discovery | Agent 7 output: 13 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\cart_page.json
+2026-09-23 17:49:44 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:cart' overlaps 62% in wording with existing page 'cart' - check you're not duplicating an existing page object.
+2026-09-23 17:49:44 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:cart' overlaps 59% in wording with existing page 'saucedemo_checkout:cart' - check you're not duplicating an existing page object.
+2026-09-23 17:49:44 | INFO     | agent.pom_generator | Agent 6 output: CartPage (13 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\cart_page.py, entry_page=False
+2026-09-23 17:49:44 | INFO     | orchestrator | Brain: discovering 'checkout' from https://www.saucedemo.com/checkout-step-one.html (story 'saucedemo_full_checkout')
+2026-09-23 17:49:44 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/checkout-step-one.html as 'checkout' (story: saucedemo_full_checkout)
+2026-09-23 17:49:45 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 17:49:45 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:50:02 | INFO     | agent.locator_discovery | Agent 7: found 15 interactive element(s) on the live page
+2026-09-23 17:50:02 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout' looks similar (53% word overlap) to already-discovered page 'saucedemo_checkout:cart' - double check this isn't a duplicate.
+2026-09-23 17:50:02 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout' looks similar (51% word overlap) to already-discovered page 'cart' - double check this isn't a duplicate.
+2026-09-23 17:50:02 | INFO     | agent.locator_discovery | Agent 7 output: 15 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\checkout_page.json
+2026-09-23 17:50:02 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout' overlaps 53% in wording with existing page 'saucedemo_checkout:cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:02 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout' overlaps 51% in wording with existing page 'cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:02 | INFO     | agent.pom_generator | Agent 6 output: CheckoutPage (15 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\checkout_page.py, entry_page=False
+2026-09-23 17:50:02 | INFO     | orchestrator | Brain: discovering 'checkout_review' from https://www.saucedemo.com/checkout-step-two.html (story 'saucedemo_full_checkout')
+2026-09-23 17:50:02 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/checkout-step-two.html as 'checkout_review' (story: saucedemo_full_checkout)
+2026-09-23 17:50:03 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 17:50:03 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:50:04 | INFO     | agent.locator_discovery | Agent 7: found 13 interactive element(s) on the live page
+2026-09-23 17:50:05 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout_review' looks similar (54% word overlap) to already-discovered page 'cart' - double check this isn't a duplicate.
+2026-09-23 17:50:05 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout_review' looks similar (51% word overlap) to already-discovered page 'saucedemo_checkout:cart' - double check this isn't a duplicate.
+2026-09-23 17:50:05 | INFO     | agent.locator_discovery | Agent 7 output: 13 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\checkout_review_page.json
+2026-09-23 17:50:05 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout_review' overlaps 54% in wording with existing page 'cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:05 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout_review' overlaps 51% in wording with existing page 'saucedemo_checkout:cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:05 | INFO     | agent.pom_generator | Agent 6 output: CheckoutReviewPage (13 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\checkout_review_page.py, entry_page=False
+2026-09-23 17:50:05 | INFO     | orchestrator | Brain: discovering 'checkout_done' from https://www.saucedemo.com/checkout-complete.html (story 'saucedemo_full_checkout')
+2026-09-23 17:50:05 | INFO     | agent.locator_discovery | Agent 7 (Locator Discovery Agent): visiting https://www.saucedemo.com/checkout-complete.html as 'checkout_done' (story: saucedemo_full_checkout)
+2026-09-23 17:50:05 | INFO     | agent.locator_discovery | Agent 7: logging in via LoginPage before scraping
+2026-09-23 17:50:05 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:50:07 | INFO     | agent.locator_discovery | Agent 7: found 11 interactive element(s) on the live page
+2026-09-23 17:50:07 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout_done' looks similar (51% word overlap) to already-discovered page 'saucedemo_checkout:cart' - double check this isn't a duplicate.
+2026-09-23 17:50:07 | WARNING  | agent.locator_discovery | Agent 7: 'saucedemo_full_checkout:checkout_done' looks similar (50% word overlap) to already-discovered page 'cart' - double check this isn't a duplicate.
+2026-09-23 17:50:07 | INFO     | agent.locator_discovery | Agent 7 output: 11 element(s) written to D:\Ai_Basic_Framework\locators\saucedemo_full_checkout\checkout_done_page.json
+2026-09-23 17:50:07 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout_done' overlaps 51% in wording with existing page 'saucedemo_checkout:cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:07 | WARNING  | agent.pom_generator | Agent 6: 'saucedemo_full_checkout:checkout_done' overlaps 50% in wording with existing page 'cart' - check you're not duplicating an existing page object.
+2026-09-23 17:50:07 | INFO     | agent.pom_generator | Agent 6 output: CheckoutDonePage (11 methods) -> D:\Ai_Basic_Framework\pages\saucedemo_full_checkout\checkout_done_page.py, entry_page=False
+2026-09-23 17:50:07 | INFO     | agent.test_case_pipeline | Pipeline: processing 'saucedemo_full_checkout.txt' -> test_cases/saucedemo_full_checkout/
+2026-09-23 17:50:07 | WARNING  | agent.test_case_pipeline | RAG: 3 existing test case(s) look similar to this story - review before duplicating effort:
+2026-09-23 17:50:07 | WARNING  | agent.test_case_pipeline |   25% similar: TC-01 'Login: complete the flow with fully valid data' (from story 'saucedemo_checkout')
+2026-09-23 17:50:07 | WARNING  | agent.test_case_pipeline |   25% similar: TC-01 'General: complete the flow with fully valid data' (from story 'my_story')
+2026-09-23 17:50:07 | WARNING  | agent.test_case_pipeline |   17% similar: TC-02 'Login: attempt the flow with an invalid or locked account' (from story 'saucedemo_checkout')
+2026-09-23 17:50:07 | INFO     | agent.requirement | Agent 1 (Requirement Agent): analyzing requirement text
+2026-09-23 17:50:07 | INFO     | agent.requirement | Agent 1 output: module=Login actor=registered customer
+2026-09-23 17:50:07 | INFO     | agent.business_rule | Agent 2 (Business Rule Agent): extracting rules for module=Login
+2026-09-23 17:50:07 | INFO     | agent.business_rule | Agent 2 output: 7 business rules found
+2026-09-23 17:50:07 | INFO     | agent.scenario | Agent 3 (Scenario Agent): generating scenarios for module=Login
+2026-09-23 17:50:07 | INFO     | agent.scenario | Agent 3 output: 6 scenarios generated
+2026-09-23 17:50:07 | INFO     | agent.test_case | Agent 4 (Test Case Agent): generating test cases for 6 scenarios
+2026-09-23 17:50:07 | INFO     | agent.test_case | Agent 4 output: 6 test cases generated
+2026-09-23 17:50:07 | INFO     | agent.test_data | Agent 5 (Test Data Agent): generating test data for 6 test cases
+2026-09-23 17:50:07 | INFO     | agent.test_data | Agent 5 output: test data written to D:\Ai_Basic_Framework\test_cases\saucedemo_full_checkout\test_data.json
+2026-09-23 17:50:07 | INFO     | agent.test_case_pipeline | Pipeline output: 6 test case(s), 6 scenario(s) written to D:\Ai_Basic_Framework\test_cases\saucedemo_full_checkout
+2026-09-23 17:50:07 | INFO     | agent.script_writer | Agent 8 (Script Writer Agent): writing a script for story 'saucedemo_full_checkout'
+2026-09-23 17:50:07 | INFO     | agent.script_writer | Agent 8 output: 6 test function(s) written to D:\Ai_Basic_Framework\tests\generated\saucedemo_full_checkout\test_saucedemo_full_checkout.py (fixtures via D:\Ai_Basic_Framework\tests\generated\saucedemo_full_checkout\conftest.py)
+2026-09-23 17:50:07 | INFO     | orchestrator | ===== Brain finished: D:\Ai_Basic_Framework\tests\generated\saucedemo_full_checkout\test_saucedemo_full_checkout.py is ready =====
+2026-09-23 17:53:02 | INFO     | fixture_factory | conftest (root/Flow A): registered 3 page-object fixture(s) from D:\Ai_Basic_Framework\pages: cart_page, inventory_page, login_page
+2026-09-23 17:53:02 | INFO     | fixture_factory | conftest (tests/generated/saucedemo_full_checkout): registered 6 page-object fixture(s) from D:\Ai_Basic_Framework\pages\saucedemo_full_checkout: cart_page, checkout_done_page, checkout_page, checkout_review_page, inventory_page, login_page
+2026-09-23 17:53:03 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:05 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 17:53:05 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/cart.checkout' found via fallback tier 'role' (primary locator may need updating)
+2026-09-23 17:53:06 | ERROR    | conftest | Test 'test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium].png
+2026-09-23 17:53:06 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:08 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:09 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:10 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 17:53:11 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:12 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/

@@ -1,0 +1,2 @@
+2026-09-23 17:53:09 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:10 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)

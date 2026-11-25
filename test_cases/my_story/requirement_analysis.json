@@ -1,0 +1,12 @@
+{
+  "module": "General",
+  "actor": "User",
+  "preconditions": [
+    "User has a valid account",
+    "Application is reachable"
+  ],
+  "workflow": [
+    "\"your story here\""
+  ],
+  "expected_result": "Action completes successfully"
+}

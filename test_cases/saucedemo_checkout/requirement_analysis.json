@@ -1,0 +1,17 @@
+{
+  "module": "Login",
+  "actor": "registered customer",
+  "preconditions": [
+    "The user must already have a registered account",
+    "The application must be reachable"
+  ],
+  "workflow": [
+    "User opens the login page",
+    "User enters username and password",
+    "User must not be able to log in if the account is locked",
+    "User adds a product to the cart",
+    "User opens the cart and proceeds to checkout",
+    "User fills in the required checkout details and completes the order"
+  ],
+  "expected_result": "The order is placed successfully and a confirmation is shown to the user"
+}

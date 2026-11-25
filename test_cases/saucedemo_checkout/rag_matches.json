@@ -1,0 +1,23 @@
+[
+  {
+    "story_id": "my_story",
+    "test_case_id": "TC-01",
+    "title": "General: complete the flow with fully valid data",
+    "key": "my_story:TC-01",
+    "score": 0.292
+  },
+  {
+    "story_id": "my_story",
+    "test_case_id": "TC-02",
+    "title": "General: attempt the flow with an invalid or locked account",
+    "key": "my_story:TC-02",
+    "score": 0.145
+  },
+  {
+    "story_id": "my_story",
+    "test_case_id": "TC-03",
+    "title": "General: attempt the flow with a required field left empty",
+    "key": "my_story:TC-03",
+    "score": 0.135
+  }
+]

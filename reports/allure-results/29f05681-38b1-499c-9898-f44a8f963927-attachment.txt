@@ -1,0 +1,1 @@
+2026-09-23 17:53:12 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/

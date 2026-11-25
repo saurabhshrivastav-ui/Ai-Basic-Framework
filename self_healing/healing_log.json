@@ -1,0 +1,938 @@
+[
+  {
+    "timestamp": "2026-09-23T10:10:05.501972+00:00",
+    "page": "login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:10:05.592090+00:00",
+    "page": "login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:10:05.652135+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:10:07.052992+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:10:08.324370+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:00.270018+00:00",
+    "page": "login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:00.301645+00:00",
+    "page": "login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:00.320965+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:03.204024+00:00",
+    "page": "login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:03.228531+00:00",
+    "page": "login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:03.245379+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:15.891104+00:00",
+    "page": "login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:15.949551+00:00",
+    "page": "login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:15.982508+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:17.750511+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:15:19.153042+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:35:34.008487+00:00",
+    "page": "login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:35:34.050250+00:00",
+    "page": "login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:35:34.070962+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:35:35.198255+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:35:36.431622+00:00",
+    "page": "login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:44.007077+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:44.031926+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:44.048410+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:46.219984+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:46.241248+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:46.257297+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.425084+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.467158+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.486147+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.630872+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.701819+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:53.776011+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "checkout",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:54.770869+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:55.772851+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:56.771760+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:56.809464+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:56.829510+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:56.952895+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "text",
+    "healed": true,
+    "confidence": 85
+  },
+  {
+    "timestamp": "2026-09-23T10:36:58.403815+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:58.435875+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:58.458804+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:59.500941+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:59.526555+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:36:59.547762+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.538233+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.567059+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.590458+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.687775+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "css",
+    "healed": true,
+    "confidence": 78
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.734705+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:42:58.800931+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "checkout",
+    "strategy_used": "role",
+    "healed": true,
+    "confidence": 92
+  },
+  {
+    "timestamp": "2026-09-23T10:42:59.663658+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:00.656709+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:01.586837+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:01.610116+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:01.628586+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:01.744759+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "css",
+    "healed": true,
+    "confidence": 78
+  },
+  {
+    "timestamp": "2026-09-23T10:43:01.801928+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:02.707350+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:02.729825+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:02.745644+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:03.605994+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:03.636635+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T10:43:03.652924+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.355414+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.420615+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.445725+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.692552+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "css",
+    "healed": true,
+    "confidence": 78
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.789783+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:05.864932+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "checkout",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:07.219503+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:08.465570+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:09.641420+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:09.681814+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:09.729399+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:09.890831+00:00",
+    "page": "saucedemo_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:10.071349+00:00",
+    "page": "saucedemo_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:11.209972+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:11.276773+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:11.329160+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:12.728454+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:12.768707+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:08:12.840618+00:00",
+    "page": "saucedemo_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:40.778575+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:40.805105+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:40.821269+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:43.340551+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:43.363005+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:19:43.380685+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:01.030213+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:01.092720+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:01.142136+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:04.012315+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:04.042188+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:04.061154+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:06.451715+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:06.484954+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:20:06.496892+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:04.730149+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:04.838137+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:04.914490+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:05.221046+00:00",
+    "page": "saucedemo_full_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "css",
+    "healed": true,
+    "confidence": 78
+  },
+  {
+    "timestamp": "2026-09-23T12:23:05.424186+00:00",
+    "page": "saucedemo_full_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:05.511039+00:00",
+    "page": "saucedemo_full_checkout/cart",
+    "element": "checkout",
+    "strategy_used": "role",
+    "healed": true,
+    "confidence": 92
+  },
+  {
+    "timestamp": "2026-09-23T12:23:07.456783+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:08.660478+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:09.879997+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:09.957788+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:10.026355+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:10.291136+00:00",
+    "page": "saucedemo_full_checkout/inventory",
+    "element": "add_to_cart_sauce_labs_backpack",
+    "strategy_used": "css",
+    "healed": true,
+    "confidence": 78
+  },
+  {
+    "timestamp": "2026-09-23T12:23:10.374638+00:00",
+    "page": "saucedemo_full_checkout/cart",
+    "element": "shopping_cart_link",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:11.596884+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:11.676262+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:11.714712+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:12.899169+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "username_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:12.954039+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "password_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  },
+  {
+    "timestamp": "2026-09-23T12:23:12.996802+00:00",
+    "page": "saucedemo_full_checkout/login",
+    "element": "login_button_input",
+    "strategy_used": "data_test",
+    "healed": false,
+    "confidence": 99
+  }
+]

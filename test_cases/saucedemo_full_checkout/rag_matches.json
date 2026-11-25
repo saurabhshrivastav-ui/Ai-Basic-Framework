@@ -1,0 +1,23 @@
+[
+  {
+    "story_id": "saucedemo_checkout",
+    "test_case_id": "TC-01",
+    "title": "Login: complete the flow with fully valid data",
+    "key": "saucedemo_checkout:TC-01",
+    "score": 0.25
+  },
+  {
+    "story_id": "my_story",
+    "test_case_id": "TC-01",
+    "title": "General: complete the flow with fully valid data",
+    "key": "my_story:TC-01",
+    "score": 0.247
+  },
+  {
+    "story_id": "saucedemo_checkout",
+    "test_case_id": "TC-02",
+    "title": "Login: attempt the flow with an invalid or locked account",
+    "key": "saucedemo_checkout:TC-02",
+    "score": 0.167
+  }
+]

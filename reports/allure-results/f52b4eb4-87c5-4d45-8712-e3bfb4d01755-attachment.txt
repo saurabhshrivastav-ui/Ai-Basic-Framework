@@ -1,0 +1,3 @@
+[32mINFO    [0m page.saucedemo_full_checkout/login_page:base_page.py:67 Navigating to https://www.saucedemo.com/
+[33mWARNING [0m self_healing:resolver.py:136 Self-healing: 'saucedemo_full_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+[33mWARNING [0m self_healing:resolver.py:136 Self-healing: 'saucedemo_full_checkout/cart.checkout' found via fallback tier 'role' (primary locator may need updating)

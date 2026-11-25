@@ -1,0 +1,38 @@
+{
+  "username_input": {
+    "page": "login",
+    "element": "username_input",
+    "data_test": "username",
+    "role": "textbox",
+    "name": "Username",
+    "placeholder": "Username",
+    "text": null,
+    "css": "#user-name",
+    "xpath": "//*[@id=\"user-name\"]",
+    "kind": "fill"
+  },
+  "password_input": {
+    "page": "login",
+    "element": "password_input",
+    "data_test": "password",
+    "role": "textbox",
+    "name": "Password",
+    "placeholder": "Password",
+    "text": null,
+    "css": "#password",
+    "xpath": "//*[@id=\"password\"]",
+    "kind": "fill"
+  },
+  "login_button_input": {
+    "page": "login",
+    "element": "login_button_input",
+    "data_test": "login-button",
+    "role": "button",
+    "name": "login-button",
+    "placeholder": null,
+    "text": "Login",
+    "css": "#login-button",
+    "xpath": "//*[@id=\"login-button\"]",
+    "kind": "click"
+  }
+}

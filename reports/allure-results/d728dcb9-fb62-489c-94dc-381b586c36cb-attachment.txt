@@ -1,0 +1,1 @@
+[32mINFO    [0m page.saucedemo_full_checkout/login_page:base_page.py:67 Navigating to https://www.saucedemo.com/

@@ -1,0 +1,184 @@
+{
+  "story_id": "my_story",
+  "story_file": "D:\\Ai_Basic_Framework\\user_stories\\my_story.txt",
+  "out_dir": "D:\\Ai_Basic_Framework\\test_cases\\my_story",
+  "requirement_analysis": {
+    "module": "General",
+    "actor": "User",
+    "preconditions": [
+      "User has a valid account",
+      "Application is reachable"
+    ],
+    "workflow": [
+      "\"your story here\""
+    ],
+    "expected_result": "Action completes successfully"
+  },
+  "business_rules": {
+    "business_rules": []
+  },
+  "scenarios": [
+    {
+      "id": "SCN-01",
+      "type": "Happy Path",
+      "title": "General: complete the flow with fully valid data"
+    },
+    {
+      "id": "SCN-02",
+      "type": "Negative",
+      "title": "General: attempt the flow with an invalid or locked account"
+    },
+    {
+      "id": "SCN-03",
+      "type": "Negative",
+      "title": "General: attempt the flow with a required field left empty"
+    },
+    {
+      "id": "SCN-04",
+      "type": "Boundary",
+      "title": "General: attempt the flow with exactly one item / minimum valid input"
+    },
+    {
+      "id": "SCN-05",
+      "type": "Alternate Flow",
+      "title": "General: reach the same goal via a different valid path"
+    },
+    {
+      "id": "SCN-06",
+      "type": "Error Handling",
+      "title": "General: attempt the flow while the app returns an error page"
+    }
+  ],
+  "test_cases": [
+    {
+      "test_case_id": "TC-01",
+      "title": "General: complete the flow with fully valid data",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter a valid username",
+        "Enter a valid password",
+        "Click the Login button",
+        "Add a product to the cart",
+        "Open the cart",
+        "Proceed to checkout and fill in the required details",
+        "Finish the order"
+      ],
+      "expected_result": "The order completes and a confirmation message is shown",
+      "priority": "High",
+      "suite": "smoke",
+      "linked_scenario": "SCN-01"
+    },
+    {
+      "test_case_id": "TC-02",
+      "title": "General: attempt the flow with an invalid or locked account",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Open the login page",
+        "Enter credentials that are invalid or belong to a locked account",
+        "Click the Login button"
+      ],
+      "expected_result": "Login is rejected and a clear error message is shown",
+      "priority": "High",
+      "suite": "regression",
+      "linked_scenario": "SCN-02"
+    },
+    {
+      "test_case_id": "TC-03",
+      "title": "General: attempt the flow with a required field left empty",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Open the login page",
+        "Leave a required field (username or password) empty",
+        "Click the Login button"
+      ],
+      "expected_result": "The action is blocked and a 'field required' error message is shown",
+      "priority": "High",
+      "suite": "regression",
+      "linked_scenario": "SCN-03"
+    },
+    {
+      "test_case_id": "TC-04",
+      "title": "General: attempt the flow with exactly one item / minimum valid input",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Log in with valid credentials",
+        "Add exactly one product to the cart",
+        "Open the cart"
+      ],
+      "expected_result": "The cart shows exactly one item with the correct count badge",
+      "priority": "Medium",
+      "suite": "sanity",
+      "linked_scenario": "SCN-04"
+    },
+    {
+      "test_case_id": "TC-05",
+      "title": "General: reach the same goal via a different valid path",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Log in with valid credentials",
+        "Reach the cart via a different valid navigation path"
+      ],
+      "expected_result": "The same cart contents are reachable either way",
+      "priority": "Low",
+      "suite": "regression",
+      "linked_scenario": "SCN-05"
+    },
+    {
+      "test_case_id": "TC-06",
+      "title": "General: attempt the flow while the app returns an error page",
+      "preconditions": [
+        "Application is reachable",
+        "Test data is available"
+      ],
+      "steps": [
+        "Log in with valid credentials",
+        "Trigger a condition that would normally cause a server or network error"
+      ],
+      "expected_result": "The app shows a graceful error message instead of crashing",
+      "priority": "Medium",
+      "suite": "regression",
+      "linked_scenario": "SCN-06"
+    }
+  ],
+  "test_data": {
+    "users": {
+      "valid_user": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+      },
+      "locked_user": {
+        "username": "locked_out_user",
+        "password": "secret_sauce"
+      },
+      "problem_user": {
+        "username": "problem_user",
+        "password": "secret_sauce"
+      }
+    },
+    "products": {
+      "primary": "Sauce Labs Backpack"
+    },
+    "checkout_info": {
+      "first_name": "Rahul",
+      "last_name": "Sharma",
+      "postal_code": "400001"
+    }
+  },
+  "rag_matches": []
+}

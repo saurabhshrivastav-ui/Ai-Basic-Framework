@@ -1,0 +1,18 @@
+As a registered customer, I want to log in, add a product to my cart,
+and complete the full checkout process, so that I receive a confirmed
+order.
+
+Preconditions:
+- The user must already have a registered account
+- The application must be reachable
+
+Workflow:
+- User opens the login page
+- User enters username and password
+- User must not be able to log in if the account is locked
+- User adds a product to the cart
+- User opens the cart and removes the selected item 
+- User opens the open menu and click on logout 
+
+Expected Result:
+User must be on the login page

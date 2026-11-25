@@ -1,0 +1,49 @@
+[
+  {
+    "method": "click_login_button_input",
+    "kind": "click",
+    "element": "login_button_input",
+    "phrases": [
+      "choose login login-button",
+      "choose the login login-button",
+      "click login login-button",
+      "click the login login-button",
+      "press login login-button",
+      "press the login login-button",
+      "select login login-button",
+      "select the login login-button",
+      "tap login login-button",
+      "tap the login login-button"
+    ]
+  },
+  {
+    "method": "fill_password_input",
+    "kind": "fill",
+    "element": "password_input",
+    "phrases": [
+      "enter password",
+      "enter the password",
+      "fill password",
+      "fill the password",
+      "input password",
+      "input the password",
+      "type password",
+      "type the password"
+    ]
+  },
+  {
+    "method": "fill_username_input",
+    "kind": "fill",
+    "element": "username_input",
+    "phrases": [
+      "enter the username",
+      "enter username",
+      "fill the username",
+      "fill username",
+      "input the username",
+      "input username",
+      "type the username",
+      "type username"
+    ]
+  }
+]

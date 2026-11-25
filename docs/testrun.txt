@@ -1,0 +1,120 @@
+================================================================================
+ TEMPLATE: how to run this framework for ANY new user story, on ANY site
+================================================================================
+Reuse this exact template every time you want to test a NEW website or
+a NEW flow. Only the <...ANGLE BRACKET...> parts ever change.
+
+--------------------------------------------------------------------------------
+STEP 0 - one-time setup (only the very first time, ever)
+--------------------------------------------------------------------------------
+pip install -r requirements.txt
+python -m playwright install chromium
+
+--------------------------------------------------------------------------------
+STEP 1 - tell it WHERE to test (edit .env, ONE line)
+--------------------------------------------------------------------------------
+BASE_URL=<the website's homepage/login URL, e.g. https://www.example.com/>
+
+WHY: every agent reads this ONE place for the target site - you never
+type the URL anywhere else again.
+
+--------------------------------------------------------------------------------
+STEP 2 - tell it WHAT to test (write your story)
+--------------------------------------------------------------------------------
+Save this as: user_stories/<your_story_name>.txt
+(pick any short name, no spaces - e.g. saucedemo_checkout, my_shop_flow)
+
+    As a <WHO - e.g. registered customer>, I want to <WHAT THEY DO -
+    e.g. log in and buy a product>, so that <WHY - e.g. I can get what
+    I need>.
+
+    Preconditions:
+    - <anything that must already be true - e.g. the user has an account>
+    - The application must be reachable
+
+    Workflow:
+    - User opens the login page                     (skip if no login)
+    - User enters username and password              (skip if no login)
+    - User must not be able to log in if the account is locked
+    - User <describe ONE click/type/navigate per line - be specific,
+      one line = one real action on one real page>
+    - User <next action>
+    - User <the final action that completes the flow>
+
+    Expected Result:
+    <what should be true or visible once it's all done - e.g. an order
+    confirmation is shown>
+
+WHY one action per line: "click checkout AND fill in the details" reads
+like one step in English but is really TWO real clicks on TWO different
+pages. Writing them as separate lines is what lets the agent generate a
+correct, working test instead of silently skipping a click.
+
+--------------------------------------------------------------------------------
+STEP 3 - run the brain (ONE command builds everything)
+--------------------------------------------------------------------------------
+python agents/orchestrator.py --story <your_story_name> ^
+    --pages <page_name>:<path> <page_name2>:<path2> ^
+    --username <U> --password <P>
+
+(Windows Command Prompt: use ^ to split a long command across lines,
+like above. Or just put it all on ONE line - that always works too.)
+
+Which parts you actually need - decision guide:
+
+  --story <your_story_name>
+      ALWAYS required. Must match the .txt file name from Step 2
+      (without ".txt").
+
+  --pages <page_name>:<path> ...
+      ONLY needed if your flow visits a page that only exists AFTER
+      logging in (an inventory page, a dashboard, a cart, etc).
+      Format is  name:/path-on-the-site , space-separated for more
+      than one.  Example:  --pages inventory:/inventory.html cart:/cart.html
+      Skip this flag entirely if your whole story stays on ONE page
+      (BASE_URL itself).
+
+  --username <U> --password <P>
+      ONLY needed together WITH --pages, when reaching those pages
+      requires logging in first.
+
+  --force-discover
+      OPTIONAL. Add this only if the real website's HTML changed since
+      you last ran this story, and you want it re-scanned from scratch.
+
+  --run
+      OPTIONAL. Add this to also run pytest automatically right after
+      the script is generated, instead of doing Step 5 separately.
+
+--------------------------------------------------------------------------------
+STEP 4 - review what got generated (30 seconds, worth it)
+--------------------------------------------------------------------------------
+Open:  tests/generated/<your_story_name>/test_<your_story_name>.py
+Look for any line starting with  # TODO
+That's the agent being honest that it wasn't 100% sure - read those
+lines and fix them by hand if needed (usually just a value to fill in).
+
+--------------------------------------------------------------------------------
+STEP 5 - actually run it
+--------------------------------------------------------------------------------
+pytest tests/generated/<your_story_name>/ -v --headed
+
+(drop --headed to run invisibly/faster once you trust it)
+
+--------------------------------------------------------------------------------
+NEVER create these yourself - the agents build them automatically:
+--------------------------------------------------------------------------------
+locators/<your_story_name>/          <- Agent 7's output
+pages/<your_story_name>/             <- Agent 6's output
+test_cases/<your_story_name>/        <- Agents 1-5's output
+tests/generated/<your_story_name>/   <- Agent 8's output
+
+================================================================================
+WORKED EXAMPLE (SauceDemo, filled in for reference)
+================================================================================
+.env:      BASE_URL=https://www.saucedemo.com/
+
+command:   python agents/orchestrator.py --story saucedemo_checkout --pages inventory:/inventory.html cart:/cart.html --username standard_user --password secret_sauce
+
+run it:    pytest tests/generated/saucedemo_checkout/ -v --headed
+================================================================================

@@ -1,0 +1,4 @@
+2026-09-23 17:53:03 | INFO     | page.saucedemo_full_checkout/login_page | Navigating to https://www.saucedemo.com/
+2026-09-23 17:53:05 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/inventory.add_to_cart_sauce_labs_backpack' found via fallback tier 'css' (primary locator may need updating)
+2026-09-23 17:53:05 | WARNING  | self_healing | Self-healing: 'saucedemo_full_checkout/cart.checkout' found via fallback tier 'role' (primary locator may need updating)
+2026-09-23 17:53:06 | ERROR    | conftest | Test 'test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium]' FAILED - screenshot saved to D:\Ai_Basic_Framework\screenshots\test_tc_01_login_complete_the_flow_with_fully_valid_data[chromium].png

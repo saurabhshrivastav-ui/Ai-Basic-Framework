@@ -1,0 +1,11 @@
+{
+  "business_rules": [
+    "The user must already have a registered account",
+    "The application must be reachable",
+    "User must not be able to log in if the account is locked",
+    "Username field must not be submittable while empty",
+    "Password field must not be submittable while empty",
+    "A locked-out or disabled account must be rejected with a clear error message",
+    "Password characters must be masked on screen"
+  ]
+}

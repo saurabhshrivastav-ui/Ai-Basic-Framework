@@ -1,0 +1,32 @@
+[
+  {
+    "id": "SCN-01",
+    "type": "Happy Path",
+    "title": "Login: complete the flow with fully valid data"
+  },
+  {
+    "id": "SCN-02",
+    "type": "Negative",
+    "title": "Login: attempt the flow with an invalid or locked account"
+  },
+  {
+    "id": "SCN-03",
+    "type": "Negative",
+    "title": "Login: attempt the flow with a required field left empty"
+  },
+  {
+    "id": "SCN-04",
+    "type": "Boundary",
+    "title": "Login: attempt the flow with exactly one item / minimum valid input"
+  },
+  {
+    "id": "SCN-05",
+    "type": "Alternate Flow",
+    "title": "Login: reach the same goal via a different valid path"
+  },
+  {
+    "id": "SCN-06",
+    "type": "Error Handling",
+    "title": "Login: attempt the flow while the app returns an error page"
+  }
+]
